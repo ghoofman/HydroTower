@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles.css" />
+    </head>
+    <body>
+        <h1>Hydro Tower</h1>
+
+        <div class="temperature">
+            <span id="temperature"></span>
+            <span id="humidity"></span>
+        </div>
+
+        <div class="controls">
+            <h3>Water Pump</h3>
+            <div class="options">
+                <button id="pump-timer-on" type="button">Turn On</button>
+                <button id="pump-timer-off" type="button">Turn Off</button>
+            </div>
+            <div class="options">
+                <button class="rate" id="rate-on-1" type="button" data-rate="1">1</button>
+                <button class="rate" id="rate-on-5" type="button" data-rate="5">5</button>
+                <button class="rate" id="rate-on-15" type="button" data-rate="15">15</button>
+                <button class="rate" id="rate-on-30" type="button" data-rate="30">30</button>
+                <button class="rate" id="rate-on-60" type="button" data-rate="60">60</button>
+            </div>
+            <div class="options">
+                <button class="rate" id="rate-off-1" type="button" data-rate="-1">1</button>
+                <button class="rate" id="rate-off-5" type="button" data-rate="-5">5</button>
+                <button class="rate" id="rate-off-15" type="button" data-rate="-15">15</button>
+                <button class="rate" id="rate-off-30" type="button" data-rate="-30">30</button>
+                <button class="rate" id="rate-off-60" type="button" data-rate="-60">60</button>
+            </div>
+        </div>
+
+        <div class="water-pump">
+            <div id="running-clock" class="clock">
+                <h2 class="title">Pump Running</h2>
+                <div class="time">
+                    <div><span class="hours">00</span><span>Hours</span></div>
+                    <div><span class="minutes">00</span><span>Minutes</span></div>
+                    <div><span class="seconds">00</span><span>Seconds</span></div>
+                </div>
+            </div>
+            
+            <div id="timer-clock" class="clock">
+                <h2 class="title">Pump Timer Running</h2>
+                <div class="time">
+                    <div><span class="days">00</span><span>Days</span></div>
+                    <div><span class="hours">00</span><span>Hours</span></div>
+                    <div><span class="minutes">00</span><span>Minutes</span></div>
+                    <div><span class="seconds">00</span><span>Seconds</span></div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="/index.js"></script>
+    </body>
+</html>
