@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "node-dht-sensor": "^0.4.1",
     "rpi-gpio": "^2.1.5",
     "socket.io-client": "^2.3.0"
